@@ -131,3 +131,4 @@ dmypy.json
 # AI models (too big for git)
 finalized_boggle_model/
 TrainedBoggle/
+.git2/COMMIT_EDITMSG
