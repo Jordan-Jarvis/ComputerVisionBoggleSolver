@@ -14,8 +14,11 @@ import tensorflow as tf
 import tensorflow.keras as keras
 def main():
 
-	gameType = int(input("For boggle solver, type 1, for Sudoku solver type 0: "))
+	gameType = int(input("For boggle solver, type 0, for Sudoku solver type 1: "))
+	
 	number_of_processes = 7
+	if (gameType == 1):
+		number_of_processes = 1 # temporary fix for boggle solver
 	InputQueue = mp.Queue()
 	FinalImages = mp.Queue()
 	ProcessedDigits= mp.Queue()
