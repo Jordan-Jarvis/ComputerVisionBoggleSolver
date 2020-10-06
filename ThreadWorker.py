@@ -66,7 +66,7 @@ def AttemptSudokuSolve(InputQueue, ProcessedDigits, FinalImage):
             if i == 10:
                 temp = temp + 1
                 result[i] = 0
-        if temp >= 4:
+        if temp >= 6:
             continue
 
 

@@ -13,9 +13,9 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import tensorflow as tf
 import tensorflow.keras as keras
 def main():
-	gameType = 1
-	input("For boggle solver, type 0, for Sudoku solver type 1: ")
-	number_of_processes = 1
+
+	gameType = int(input("For boggle solver, type 1, for Sudoku solver type 0: "))
+	number_of_processes = 7
 	InputQueue = mp.Queue()
 	FinalImages = mp.Queue()
 	ProcessedDigits= mp.Queue()
