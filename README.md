@@ -10,6 +10,10 @@ Here is an example screenshot
 
 
 ![](./images/Capture.PNG)
+![](./ReadmeFiles/gameselect.png)
+![](./ReadmeFiles/scanning.png)
+![](./ReadmeFiles/boardfound.png)
+![](./ReadmeFiles/outputresult.png)
 
 To run this you must have a webcam and the correct libraries installed, I recommend you use GPU to train the boggle solver.
 Libraries include:
